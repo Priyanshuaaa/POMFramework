@@ -3,13 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.Contactspagetest">
+      <class name="com.qa.testcases.HomePageTests">
         <methods>
-          <include name="teardown"/>
-          <include name="addnewcontactest"/>
+          <include name="validateusernametest"/>
           <include name="setup"/>
+          <include name="teardown"/>
+          <include name="clickontaskslinkTest"/>
+          <include name="clickoncontactslinkTest"/>
+          <include name="verifytitletest"/>
+          <include name="clickondealslinkTest"/>
         </methods>
-      </class> <!-- com.qa.testcases.Contactspagetest -->
+      </class> <!-- com.qa.testcases.HomePageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
